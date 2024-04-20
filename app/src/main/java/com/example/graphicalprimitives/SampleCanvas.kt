@@ -43,10 +43,10 @@ class SampleCanvas(context: Context, attrs: AttributeSet) : View(context, attrs)
         paint.color=Color.RED
         canvas.drawText("Line",870f,1750f,paint)
         
-        paint.color = Color.CYAN
-        canvas.drawLine(1000f, 1600f, 1020f, 1100f, paint)
+        paint.color=Color.MAGENTA
+        canvas.drawOval(960f,2000f,480f,2300f,paint)
         paint.color=Color.RED
-        canvas.drawText("Line",870f,1750f,paint)
+        canvas.drawText("Ellipse",580f,2450f,paint)
 
     }
 }
