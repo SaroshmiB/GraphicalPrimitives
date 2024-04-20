@@ -42,7 +42,11 @@ class SampleCanvas(context: Context, attrs: AttributeSet) : View(context, attrs)
         canvas.drawLine(1000f, 1600f, 1020f, 1100f, paint)
         paint.color=Color.RED
         canvas.drawText("Line",870f,1750f,paint)
-
+        
+        paint.color = Color.CYAN
+        canvas.drawLine(1000f, 1600f, 1020f, 1100f, paint)
+        paint.color=Color.RED
+        canvas.drawText("Line",870f,1750f,paint)
 
     }
 }
